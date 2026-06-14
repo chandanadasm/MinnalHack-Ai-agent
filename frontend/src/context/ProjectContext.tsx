@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://minnalhack-ai-agent.onrender.com/api';
 
 export interface Message {
   role: 'user' | 'model';
